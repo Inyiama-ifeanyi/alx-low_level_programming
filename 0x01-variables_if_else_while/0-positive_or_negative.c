@@ -2,14 +2,17 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*betty coding style*/
+/**
+ * main - Checks whether number is positive or negative
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/*my code begins here*/
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)

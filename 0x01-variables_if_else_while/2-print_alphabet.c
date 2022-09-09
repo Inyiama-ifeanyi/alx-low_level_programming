@@ -1,11 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/*betty coding syle*/
+/**
+ * main - Prints the alphabets in lowercase
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	/*my code begins here*/
-	char ch = 'a';
+	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
