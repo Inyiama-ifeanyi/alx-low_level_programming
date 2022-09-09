@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*betty coding style*/
 int main(void)
 {
 	int n;
