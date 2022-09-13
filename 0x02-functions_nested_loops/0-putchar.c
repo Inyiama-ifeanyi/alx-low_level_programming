@@ -1,8 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <main.h>
+#include "main.h"
 /**
- * main - This function would return print _putchar
+ * main - Prints _putchar as a message
  *
  * Return: Always 0 (Success)
  */
