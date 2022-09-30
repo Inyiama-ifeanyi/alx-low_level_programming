@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - this is a function to print its name
@@ -7,9 +6,8 @@
  * @argv: an array of a command listed
  * Return: 0 for success
  */
-int main(int argc, char* argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	int i;
-
-	printf("%s\n", argv[0]);
-	return (0);}
+	printf("%s\n", *argv);
+	return (0);
+}
